@@ -1,12 +1,13 @@
 
+---
 
+server:
+    port:1301
+    
 spring:
     profiles: default
     application:
         name: config-client
-
-server:
-    port:1301
     
 eureka:
     client:

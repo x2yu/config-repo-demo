@@ -4,7 +4,7 @@ spring:
         name: config-client
 
 server:
-    port:1301
+    port:1309
     
 eureka:
     client:
