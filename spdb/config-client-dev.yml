@@ -1,10 +1,10 @@
+server:
+    port:1309
+
 spring:
     profiles: dev
     application:
         name: config-client
-
-server:
-    port:1309
     
 eureka:
     client:
