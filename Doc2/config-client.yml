@@ -1,8 +1,11 @@
-server:
-    port: 1309
 
+---
+
+server:
+    port: 1301
+    
 spring:
-    profiles: dev
+    profiles: sit
     application:
         name: config-client
     
@@ -12,5 +15,5 @@ eureka:
             defaultZone: http://localhost:2002/eureka/
 
 info:
-    des: 这是devdevdevdev
+    des: 这是doc2的sit配置文件
     author: x2yu

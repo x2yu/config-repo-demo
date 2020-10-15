@@ -1,0 +1,16 @@
+server:
+    port: 1309
+
+spring:
+    profiles: dev
+    application:
+        name: config-client
+    
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:2002/eureka/
+
+info:
+    des: 这是doc2的dev配置文件
+    author: x2yu
